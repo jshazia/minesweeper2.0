@@ -1,0 +1,131 @@
+#wrongLogin {
+	color:red; 
+	float: right;
+	margin: 1px; 
+	font-size: 20px; 
+	visibility: hidden;
+}
+
+.input-group {
+	text-align: right;
+	margin: 5%;
+}
+
+#jumbotron2 {
+	text-align: center;
+	background-color: dimgrey;
+	color: white;
+	font-family: 'Monoton', cursive;
+
+}
+
+#gameOverAPI img {
+	border-radius: 10px;
+}
+
+#highScores {
+	text-align: center;
+	font-weight: bolder;
+
+}
+
+#authenticationElements {
+	display: flex;
+	justify-content: right;
+	margin-right: 0;
+}
+
+#createAccountBtn {
+	border-radius: 0 5px 5px 0;
+}
+
+#loginEmail {
+	margin-right: 0.5%;
+	border-radius: 5px 0 0 5px;
+}
+
+#loginPassword {
+	margin-right: 1%;
+	margin-left: 0.5%;
+}
+
+.panel-body {
+	display: flex;
+}
+
+.powerups {
+	display: flex;
+	justify-content: center;
+}
+
+.powerups_body {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.powerups input {
+	margin: 25px 12.5px 0px 12.5px;
+	background-color: #6774AF;
+	border: none;
+	outline: none !important;
+}
+
+.powerups input:active, .powerups input:hover,  .powerups input:focus {
+	background-color: #6774AF;
+}
+
+.powerups_panel {
+	border: none;
+}
+
+.block {
+	height: 20px;
+	width: 20px;
+}
+
+
+.mine_field {
+	display: inline-flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 25px;
+	width: 180px;
+	text-align: center;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.mine_field_left_rotation {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+}
+
+.mine_field_right_rotation {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+
+#timerDisplay {
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+	padding-top: .5%;
+	border: black solid 2px;
+	border-radius: 5px;
+	margin: auto;
+	width: 150px;
+	zoom: 1.5;
+}
+
+#lossModal {
+	text-align: center;
+}
+
+#winModal {
+	text-align: center;
+}
